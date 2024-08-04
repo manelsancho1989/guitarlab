@@ -8,7 +8,7 @@ function App() {
     const localStorageCart = localStorage.getItem("cart");
     return localStorageCart ? JSON.parse(localStorageCart) : [];
   };
-  const [data, setData] = useState(db);
+  const [data] = useState(db);
   const [cart, setCart] = useState(initialCart);
   const MAX_QUANTITY = 5;
   const MIN_QUANTITY = 1;
