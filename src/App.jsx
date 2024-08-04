@@ -59,10 +59,6 @@ function App() {
   function clearCart() {
     setCart([]);
   }
-  /*
-  function saveLocalStorage(){
-    
-  }*/
   return (
     <>
       <Header
